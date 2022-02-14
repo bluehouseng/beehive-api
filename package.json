@@ -1,0 +1,26 @@
+{
+  "name": "beehive_api",
+  "version": "1.0.0",
+  "description": "server for Beehive remote hub",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluehouseng/BeeHive_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluehouseng/BeeHive_API/issues"
+  },
+  "homepage": "https://github.com/bluehouseng/BeeHive_API#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "joi": "^17.6.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
